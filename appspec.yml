@@ -4,6 +4,6 @@ files:
   - source: Demo1.0.sh
   destination: /home/ubuntu
 hooks:
-  AfterInstall:
-    - location: after_install.sh
+  BeforeInstall:
+    - location: before_install.sh
       timeout: 180
