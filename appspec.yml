@@ -3,7 +3,4 @@ os: linux
 files:
   - source: Demo1.0.sh
   destination: /home/ubuntu
-hooks:
-  AfterInstall:
-    - location: after_script.sh
-      timeout: 180
+
