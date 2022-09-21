@@ -1,6 +1,6 @@
 version: 0.0
 os: linux
 files:
-  - source: Demo1.0.sh
+  - source: /
   destination: /home/ubuntu
 
