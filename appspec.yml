@@ -7,6 +7,3 @@ hooks:
   AfterInstall:
     - location: after_script.sh
       timeout: 180
-  ApplicationStart:
-      timeout: 100 
-      
