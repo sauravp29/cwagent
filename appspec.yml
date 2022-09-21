@@ -4,9 +4,9 @@ files:
   - source: Demo1.0.sh
 hooks:
   BeforeInstall:
-    - location: scripts/before_script.sh
+    - location: before_script.sh
   AfterInstall:
-    - location: scripts/after_script.sh
+    - location: after_script.sh
       timeout: 180
   ApplicationStart:
       timeout: 100
